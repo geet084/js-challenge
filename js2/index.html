@@ -6,6 +6,7 @@
   <title>JS + CSS Clock</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="clock">
     <div class="clock-face">
@@ -16,7 +17,17 @@
   </div>
 
   <script>
+    const secHand = document.querySelector('.second-hand');
 
+    function setDate() {
+      const now = new Date();
+
+      const secDeg = ((now.getSeconds() / 60) * 360) + 90
+      secHand.style.transform = `rotate(${secDeg}deg)`
+    }
+
+    setInterval(setDate, 1000);
   </script>
 </body>
+
 </html>
