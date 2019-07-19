@@ -5,4 +5,5 @@
 ##### Day 1 - Drum kit
 ##### Day 2 - Clock
 ##### Day 3 - CSS Variables
-##### Day 4 - ...
+##### Day 4 - Array Cardio Day 1
+##### Day 5 - ...
