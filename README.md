@@ -6,4 +6,5 @@
 ##### Day 2 - Clock
 ##### Day 3 - CSS Variables
 ##### Day 4 - Array Cardio Day 1
-##### Day 5 - ...
+##### Day 5 - Flex Panels Image Gallery
+##### Day 6 - ...
